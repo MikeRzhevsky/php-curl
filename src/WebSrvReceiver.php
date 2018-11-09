@@ -18,8 +18,10 @@ class WebSrvReceiver
         //что такое curl https://ru.wikipedia.org/wiki/CURL
         // установка URL и других необходимых параметров
         // создание нового cURL ресурса
+        // use http://phpfiddle.org/ for  blocks of code marked with *
         if ($curl = curl_init()) {
             //читаем заголовки
+            //*
             /*$url = "https://myblaze.ru";
             curl_setopt($curl, CURLOPT_URL,$url);
             curl_setopt($curl, CURLOPT_HEADER, 1); // читать заголовок
